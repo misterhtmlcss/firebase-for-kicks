@@ -50,7 +50,7 @@ function signIn(email, password) {
     .auth()
     .onAuthStateChanged(function(user) {
       if (user) {
-        writeUserData(userData.name, userData.email)
+        //writeUserData(userData.name, userData.email)
         console.log('user' , user)
       } else {
       console.log(`user not signed in: ${user}`)
