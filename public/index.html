@@ -12,20 +12,30 @@
 </head>
 <body>
   <h3>Test Form for Sign in</h3>
-  <input type="text" name="name" id="name"/>
-  <input type="email" name="email" id="email">
+  <label for="name">name</label>
+  <input type="text" name="name" id="name"/><br />
+  <label for="email">email</label>
+  <input type="email" name="email" id="email"><br />
+  <label for="password">password</label>
   <input type="password" name="password" id="password"></div>
   <button id="login">Sign in</button>
 
   <h2>copy me: </h2>
   <h2>roger</h2>
   <h2>roger@testerson.co</h2>
+  <input type="file" id="fileUpload">
+  <button id="upload">upload</button>
 
-<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-firestore.js"></script>
-<script src="./js/secret.js"></script>
-<script src="./js/firebase.js"></script>
 
+
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-storage.js"></script>
+  <script src="./js/secret.js"></script>
+  <script src="./js/firebase.js"></script>
 </body>
 </html>
